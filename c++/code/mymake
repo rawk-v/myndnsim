@@ -1,0 +1,2 @@
+all:
+    g++ ./test.cc ./Stuff.cpp ./Stuff.hpp -o ./run.out
