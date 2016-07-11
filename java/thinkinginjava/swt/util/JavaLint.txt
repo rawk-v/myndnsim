@@ -1,0 +1,36 @@
+warning: [options] bootstrap class path not set in conjunction with -source 1.5
+warning: [options] source value 1.5 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+SWTApplication.java:3: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.*;
+^
+SWTApplication.java:6: error: cannot find symbol
+  void createContents(Composite parent);
+                      ^
+  symbol:   class Composite
+  location: interface SWTApplication
+SWTConsole.java:3: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.*;
+^
+SWTConsole.java:8: error: cannot find symbol
+    Display display = new Display();
+    ^
+  symbol:   class Display
+  location: class SWTConsole
+SWTConsole.java:8: error: cannot find symbol
+    Display display = new Display();
+                          ^
+  symbol:   class Display
+  location: class SWTConsole
+SWTConsole.java:9: error: cannot find symbol
+    Shell shell = new Shell(display);
+    ^
+  symbol:   class Shell
+  location: class SWTConsole
+SWTConsole.java:9: error: cannot find symbol
+    Shell shell = new Shell(display);
+                      ^
+  symbol:   class Shell
+  location: class SWTConsole
+7 errors
+3 warnings

@@ -1,0 +1,101 @@
+
+Jul 11, 2016 19:10:02.43 NEW SESSION
+Jul 11, 2016 19:10:02.44 Created new window in existing browser session.
+Jul 11, 2016 19:14:30.63 Created new window in existing browser session.
+Jul 11, 2016 19:17:58.89 [16317:16354:0711/191758:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:18:31.90 [16317:16354:0711/191831:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:19:33.93 [16317:16354:0711/191933:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:20:32.58 [16317:16354:0711/192032:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:20:57.23 [16317:16354:0711/192057:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:21:17.74 [16317:16354:0711/192117:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:21:38.18 [16317:16354:0711/192138:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:21:58.70 [16317:16354:0711/192158:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:22:19.18 [16317:16354:0711/192219:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:22:29.48 [1:1:0711/192229:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:22:31.07 [1:1:0711/192231:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:22:39.69 [16317:16354:0711/192239:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:22:53.28 [1:1:0711/192253:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:23:00.20 [16317:16354:0711/192300:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:23:02.03 [1:1:0711/192302:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:23:08.41 [1:1:0711/192308:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:23:12.08 [1:1:0711/192312:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:23:13.91 [1:1:0711/192313:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:23:20.69 [16317:16354:0711/192320:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:23:28.83 
+Jul 11, 2016 19:23:28.83 (file-roller:17921): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:13:7: Missing name of pseudo-class
+Jul 11, 2016 19:23:28.83 
+Jul 11, 2016 19:23:28.83 (file-roller:17921): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:17:7: Missing name of pseudo-class
+Jul 11, 2016 19:23:28.83 
+Jul 11, 2016 19:23:28.83 (file-roller:17921): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:37:7: Missing name of pseudo-class
+Jul 11, 2016 19:23:28.83 
+Jul 11, 2016 19:23:28.83 (file-roller:17921): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:41:7: Missing name of pseudo-class
+Jul 11, 2016 19:23:28.83 
+Jul 11, 2016 19:23:28.83 (file-roller:17921): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:58:16: Missing name of pseudo-class
+Jul 11, 2016 19:23:28.83 
+Jul 11, 2016 19:23:28.83 (file-roller:17921): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:63:16: Missing name of pseudo-class
+Jul 11, 2016 19:23:28.83 
+Jul 11, 2016 19:23:28.83 (file-roller:17921): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:68:16: Missing name of pseudo-class
+Jul 11, 2016 19:23:28.83 
+Jul 11, 2016 19:23:28.83 (file-roller:17921): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:92:16: Missing name of pseudo-class
+Jul 11, 2016 19:23:28.83 
+Jul 11, 2016 19:23:28.83 (file-roller:17921): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:97:16: Missing name of pseudo-class
+Jul 11, 2016 19:23:28.83 
+Jul 11, 2016 19:23:28.83 (file-roller:17921): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:102:16: Missing name of pseudo-class
+Jul 11, 2016 19:23:34.25 
+Jul 11, 2016 19:23:34.25 (gedit:17939): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:13:7: Missing name of pseudo-class
+Jul 11, 2016 19:23:34.25 
+Jul 11, 2016 19:23:34.25 (gedit:17939): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:17:7: Missing name of pseudo-class
+Jul 11, 2016 19:23:34.25 
+Jul 11, 2016 19:23:34.25 (gedit:17939): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:37:7: Missing name of pseudo-class
+Jul 11, 2016 19:23:34.25 
+Jul 11, 2016 19:23:34.25 (gedit:17939): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:41:7: Missing name of pseudo-class
+Jul 11, 2016 19:23:34.25 
+Jul 11, 2016 19:23:34.25 (gedit:17939): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:58:16: Missing name of pseudo-class
+Jul 11, 2016 19:23:34.25 
+Jul 11, 2016 19:23:34.25 (gedit:17939): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:63:16: Missing name of pseudo-class
+Jul 11, 2016 19:23:34.25 
+Jul 11, 2016 19:23:34.25 (gedit:17939): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:68:16: Missing name of pseudo-class
+Jul 11, 2016 19:23:34.25 
+Jul 11, 2016 19:23:34.25 (gedit:17939): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:92:16: Missing name of pseudo-class
+Jul 11, 2016 19:23:34.25 
+Jul 11, 2016 19:23:34.25 (gedit:17939): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:97:16: Missing name of pseudo-class
+Jul 11, 2016 19:23:34.25 
+Jul 11, 2016 19:23:34.25 (gedit:17939): Gtk-WARNING **: Theme parsing error: gtk-widgets-assets.css:102:16: Missing name of pseudo-class
+Jul 11, 2016 19:23:41.20 [16317:16354:0711/192341:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:24:01.74 [16317:16354:0711/192401:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:24:22.26 [16317:16354:0711/192422:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:24:33.49 Created new window in existing browser session.
+Jul 11, 2016 19:24:42.80 [16317:16354:0711/192442:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:25:03.35 [16317:16354:0711/192503:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:25:08.54 [1:1:0711/192508:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:25:09.17 [1:1:0711/192509:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:25:13.64 [1:1:0711/192513:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:25:15.10 [1:1:0711/192515:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:25:17.42 [1:1:0711/192517:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:25:18.00 [1:1:0711/192518:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:25:19.90 [1:1:0711/192519:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:25:23.20 [1:1:0711/192523:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:25:23.86 [16317:16354:0711/192523:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:25:25.60 [1:1:0711/192525:ERROR:PlatformKeyboardEvent.cpp(117)] Not implemented reached in static PlatformEvent::Modifiers blink::PlatformKeyboardEvent::getCurrentModifierState()
+Jul 11, 2016 19:25:44.37 [16317:16354:0711/192544:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:26:05.02 [16317:16354:0711/192605:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:26:17.91 Created new window in existing browser session.
+Jul 11, 2016 19:26:25.50 [16317:16354:0711/192625:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:26:45.91 Created new window in existing browser session.
+Jul 11, 2016 19:26:46.04 [16317:16354:0711/192646:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:27:05.83 Created new window in existing browser session.
+Jul 11, 2016 19:27:06.52 [16317:16354:0711/192706:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:27:27.02 [16317:16354:0711/192727:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:27:47.57 [16317:16354:0711/192747:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:28:08.07 [16317:16354:0711/192808:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:28:16.97 Created new window in existing browser session.
+Jul 11, 2016 19:28:17.01 [18865:18865:0711/192817:ERROR:broker_posix.cc(41)] Invalid node channel message
+Jul 11, 2016 19:28:28.55 [16317:16354:0711/192828:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:28:49.21 [16317:16354:0711/192849:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:31:11.87 [19380:19418:0711/193111:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:31:32.25 [19380:19418:0711/193132:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:31:52.83 [19380:19418:0711/193152:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:32:13.46 [19380:19418:0711/193213:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:32:33.97 [19380:19418:0711/193233:ERROR:socket_stream.cc(210)] Closing stream with result -100
+Jul 11, 2016 19:33:45.40 [WARNING:flash/platform/pepper/pep_module.cpp(63)] SANDBOXED
+Jul 11, 2016 19:51:43.65 Created new window in existing browser session.

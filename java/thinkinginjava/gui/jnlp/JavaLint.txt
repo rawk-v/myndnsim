@@ -1,0 +1,53 @@
+warning: [options] bootstrap class path not set in conjunction with -source 1.5
+warning: [options] source value 1.5 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+JnlpFileChooser.java:10: error: package javax.jnlp does not exist
+import javax.jnlp.*;
+^
+JnlpFileChooser.java:23: error: cannot find symbol
+  private FileContents fileContents;
+          ^
+  symbol:   class FileContents
+  location: class JnlpFileChooser
+JnlpFileChooser.java:43: error: cannot find symbol
+      FileOpenService fs = null;
+      ^
+  symbol:   class FileOpenService
+  location: class JnlpFileChooser.OpenL
+JnlpFileChooser.java:45: error: cannot find symbol
+        fs = (FileOpenService)ServiceManager.lookup(
+              ^
+  symbol:   class FileOpenService
+  location: class JnlpFileChooser.OpenL
+JnlpFileChooser.java:45: error: cannot find symbol
+        fs = (FileOpenService)ServiceManager.lookup(
+                              ^
+  symbol:   variable ServiceManager
+  location: class JnlpFileChooser.OpenL
+JnlpFileChooser.java:47: error: cannot find symbol
+      } catch(UnavailableServiceException use) {
+              ^
+  symbol:   class UnavailableServiceException
+  location: class JnlpFileChooser.OpenL
+JnlpFileChooser.java:67: error: cannot find symbol
+      FileSaveService fs = null;
+      ^
+  symbol:   class FileSaveService
+  location: class JnlpFileChooser.SaveL
+JnlpFileChooser.java:69: error: cannot find symbol
+        fs = (FileSaveService)ServiceManager.lookup(
+              ^
+  symbol:   class FileSaveService
+  location: class JnlpFileChooser.SaveL
+JnlpFileChooser.java:69: error: cannot find symbol
+        fs = (FileSaveService)ServiceManager.lookup(
+                              ^
+  symbol:   variable ServiceManager
+  location: class JnlpFileChooser.SaveL
+JnlpFileChooser.java:71: error: cannot find symbol
+      } catch(UnavailableServiceException use) {
+              ^
+  symbol:   class UnavailableServiceException
+  location: class JnlpFileChooser.SaveL
+10 errors
+3 warnings

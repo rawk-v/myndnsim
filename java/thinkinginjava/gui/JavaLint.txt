@@ -1,0 +1,460 @@
+warning: [options] bootstrap class path not set in conjunction with -source 1.5
+warning: [options] source value 1.5 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+BangBean2.java:9: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+BeanDumper.java:8: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+BorderLayout1.java:5: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+Borders.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+Button1.java:5: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+Button2.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+Button2b.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+ButtonGroups.java:8: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+Buttons.java:7: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+CheckBoxes.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+ColorBoxes.java:7: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+ComboBoxes.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+Dialogs.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+Faces.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+FileChooserTest.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+FlowLayout1.java:5: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+GridLayout1.java:5: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+HTMLButton.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+InterruptableLongRunningCallable.java:7: error: package net.mindview.util does not exist
+import net.mindview.util.*;
+^
+InterruptableLongRunningCallable.java:8: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+InterruptableLongRunningTask.java:7: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+InterruptableLongRunningCallable.java:10: warning: auxiliary class Task in InterruptableLongRunningTask.java should not be accessed from outside its own source file
+class CallableTask extends Task
+                           ^
+InterruptableLongRunningCallable.java:24: error: cannot find symbol
+  private TaskManager<String,CallableTask> manager =
+          ^
+  symbol:   class TaskManager
+  location: class InterruptableLongRunningCallable
+List.java:7: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+LongRunningTask.java:7: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+LookAndFeel.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+Menus.java:7: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+MessageBoxes.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+MonitoredLongRunningCallable.java:7: error: package net.mindview.util does not exist
+import net.mindview.util.*;
+^
+MonitoredLongRunningCallable.java:8: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+MonitoredLongRunningCallable.java:53: error: cannot find symbol
+  private TaskManager<String,MonitoredCallable> manager =
+          ^
+  symbol:   class TaskManager
+  location: class MonitoredLongRunningCallable
+Popup.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+Progress.java:7: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+RadioButtons.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+ShowAddListeners.java:8: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+SimpleMenus.java:5: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+SineWave.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+TabbedPane1.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+TextArea.java:7: error: package net.mindview.util does not exist
+import net.mindview.util.*;
+^
+TextArea.java:8: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+TextFields.java:8: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+TextPane.java:6: error: package net.mindview.util does not exist
+import net.mindview.util.*;
+^
+TextPane.java:7: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+TextPane.java:12: error: cannot find symbol
+  private static Generator sg =
+                 ^
+  symbol:   class Generator
+  location: class TextPane
+TicTacToe.java:6: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+TrackEvent.java:7: error: package net.mindview.util does not exist
+import static net.mindview.util.SwingConsole.*;
+                               ^
+BangBean2.java:109: error: cannot find symbol
+    run(frame, 300, 300);
+    ^
+  symbol:   method run(JFrame,int,int)
+  location: class BangBean2
+BeanDumper.java:83: error: cannot find symbol
+    run(new BeanDumper(), 600, 500);
+    ^
+  symbol:   method run(BeanDumper,int,int)
+  location: class BeanDumper
+BorderLayout1.java:16: error: cannot find symbol
+    run(new BorderLayout1(), 300, 250);
+    ^
+  symbol:   method run(BorderLayout1,int,int)
+  location: class BorderLayout1
+Borders.java:35: error: cannot find symbol
+    run(new Borders(), 500, 300);
+    ^
+  symbol:   method run(Borders,int,int)
+  location: class Borders
+Button1.java:17: error: cannot find symbol
+    run(new Button1(), 200, 100);
+    ^
+  symbol:   method run(Button1,int,int)
+  location: class Button1
+Button2.java:29: error: cannot find symbol
+    run(new Button2(), 200, 150);
+    ^
+  symbol:   method run(Button2,int,int)
+  location: class Button2
+Button2b.java:28: error: cannot find symbol
+    run(new Button2b(), 200, 150);
+    ^
+  symbol:   method run(Button2b,int,int)
+  location: class Button2b
+ButtonGroups.java:26: warning: [rawtypes] found raw type: Constructor
+        Constructor ctor =
+        ^
+  missing type arguments for generic class Constructor<T>
+  where T is a type-variable:
+    T extends Object declared in class Constructor
+ButtonGroups.java:46: error: cannot find symbol
+    run(new ButtonGroups(), 500, 350);
+    ^
+  symbol:   method run(ButtonGroups,int,int)
+  location: class ButtonGroups
+Buttons.java:31: error: cannot find symbol
+    run(new Buttons(), 350, 200);
+    ^
+  symbol:   method run(Buttons,int,int)
+  location: class Buttons
+CheckBoxes.java:43: error: cannot find symbol
+    run(new CheckBoxes(), 200, 300);
+    ^
+  symbol:   method run(CheckBoxes,int,int)
+  location: class CheckBoxes
+ColorBoxes.java:52: error: cannot find symbol
+    run(boxes, 500, 400);
+    ^
+  symbol:   method run(ColorBoxes,int,int)
+  location: class ColorBoxes
+ComboBoxes.java:14: warning: [rawtypes] found raw type: JComboBox
+  private JComboBox c = new JComboBox();
+          ^
+  missing type arguments for generic class JComboBox<E>
+  where E is a type-variable:
+    E extends Object declared in class JComboBox
+ComboBoxes.java:14: warning: [rawtypes] found raw type: JComboBox
+  private JComboBox c = new JComboBox();
+                            ^
+  missing type arguments for generic class JComboBox<E>
+  where E is a type-variable:
+    E extends Object declared in class JComboBox
+ComboBoxes.java:19: warning: [unchecked] unchecked call to addItem(E) as a member of the raw type JComboBox
+      c.addItem(description[count++]);
+               ^
+  where E is a type-variable:
+    E extends Object declared in class JComboBox
+ComboBoxes.java:24: warning: [unchecked] unchecked call to addItem(E) as a member of the raw type JComboBox
+          c.addItem(description[count++]);
+                   ^
+  where E is a type-variable:
+    E extends Object declared in class JComboBox
+ComboBoxes.java:39: error: cannot find symbol
+    run(new ComboBoxes(), 200, 175);
+    ^
+  symbol:   method run(ComboBoxes,int,int)
+  location: class ComboBoxes
+Dialogs.java:36: error: cannot find symbol
+    run(new Dialogs(), 125, 75);
+    ^
+  symbol:   method run(Dialogs,int,int)
+  location: class Dialogs
+Faces.java:55: error: cannot find symbol
+    run(new Faces(), 250, 125);
+    ^
+  symbol:   method run(Faces,int,int)
+  location: class Faces
+FileChooserTest.java:61: error: cannot find symbol
+    run(new FileChooserTest(), 250, 150);
+    ^
+  symbol:   method run(FileChooserTest,int,int)
+  location: class FileChooserTest
+FlowLayout1.java:14: error: cannot find symbol
+    run(new FlowLayout1(), 300, 300);
+    ^
+  symbol:   method run(FlowLayout1,int,int)
+  location: class FlowLayout1
+GridLayout1.java:14: error: cannot find symbol
+    run(new GridLayout1(), 300, 300);
+    ^
+  symbol:   method run(GridLayout1,int,int)
+  location: class GridLayout1
+HTMLButton.java:25: error: cannot find symbol
+    run(new HTMLButton(), 200, 500);
+    ^
+  symbol:   method run(HTMLButton,int,int)
+  location: class HTMLButton
+InterruptableLongRunningCallable.java:25: error: cannot find symbol
+    new TaskManager<String,CallableTask>();
+        ^
+  symbol:   class TaskManager
+  location: class InterruptableLongRunningCallable
+InterruptableLongRunningCallable.java:43: error: cannot find symbol
+        for(TaskItem<String,CallableTask> tt :
+            ^
+  symbol: class TaskItem
+InterruptableLongRunningCallable.java:56: error: cannot find symbol
+    run(new InterruptableLongRunningCallable(), 200, 150);
+    ^
+  symbol:   method run(InterruptableLongRunningCallable,int,int)
+  location: class InterruptableLongRunningCallable
+InterruptableLongRunningTask.java:50: error: cannot find symbol
+    run(new InterruptableLongRunningTask(), 200, 150);
+    ^
+  symbol:   method run(InterruptableLongRunningTask,int,int)
+  location: class InterruptableLongRunningTask
+List.java:15: warning: [rawtypes] found raw type: DefaultListModel
+  private DefaultListModel lItems = new DefaultListModel();
+          ^
+  missing type arguments for generic class DefaultListModel<E>
+  where E is a type-variable:
+    E extends Object declared in class DefaultListModel
+List.java:15: warning: [rawtypes] found raw type: DefaultListModel
+  private DefaultListModel lItems = new DefaultListModel();
+                                        ^
+  missing type arguments for generic class DefaultListModel<E>
+  where E is a type-variable:
+    E extends Object declared in class DefaultListModel
+List.java:16: warning: [rawtypes] found raw type: JList
+  private JList lst = new JList(lItems);
+          ^
+  missing type arguments for generic class JList<E>
+  where E is a type-variable:
+    E extends Object declared in class JList
+List.java:16: warning: [rawtypes] found raw type: JList
+  private JList lst = new JList(lItems);
+                          ^
+  missing type arguments for generic class JList<E>
+  where E is a type-variable:
+    E extends Object declared in class JList
+List.java:16: warning: [unchecked] unchecked call to JList(ListModel<E>) as a member of the raw type JList
+  private JList lst = new JList(lItems);
+                      ^
+  where E is a type-variable:
+    E extends Object declared in class JList
+List.java:23: warning: [unchecked] unchecked call to add(int,E) as a member of the raw type DefaultListModel
+        lItems.add(0, flavors[count++]);
+                  ^
+  where E is a type-variable:
+    E extends Object declared in class DefaultListModel
+List.java:36: warning: [deprecation] getSelectedValues() in JList has been deprecated
+        for(Object item : lst.getSelectedValues())
+                             ^
+List.java:51: warning: [unchecked] unchecked call to addElement(E) as a member of the raw type DefaultListModel
+      lItems.addElement(flavors[count++]);
+                       ^
+  where E is a type-variable:
+    E extends Object declared in class DefaultListModel
+List.java:60: error: cannot find symbol
+    run(new List(), 250, 375);
+    ^
+  symbol:   method run(List,int,int)
+  location: class List
+LongRunningTask.java:36: error: cannot find symbol
+    run(new LongRunningTask(), 200, 150);
+    ^
+  symbol:   method run(LongRunningTask,int,int)
+  location: class LongRunningTask
+LookAndFeel.java:17: warning: [rawtypes] found raw type: JComboBox
+    new JComboBox(choices),
+        ^
+  missing type arguments for generic class JComboBox<E>
+  where E is a type-variable:
+    E extends Object declared in class JComboBox
+LookAndFeel.java:17: warning: [unchecked] unchecked call to JComboBox(E[]) as a member of the raw type JComboBox
+    new JComboBox(choices),
+    ^
+  where E is a type-variable:
+    E extends Object declared in class JComboBox
+LookAndFeel.java:18: warning: [rawtypes] found raw type: JList
+    new JList(choices),
+        ^
+  missing type arguments for generic class JList<E>
+  where E is a type-variable:
+    E extends Object declared in class JList
+LookAndFeel.java:18: warning: [unchecked] unchecked call to JList(E[]) as a member of the raw type JList
+    new JList(choices),
+    ^
+  where E is a type-variable:
+    E extends Object declared in class JList
+LookAndFeel.java:57: error: cannot find symbol
+    run(new LookAndFeel(), 300, 300);
+    ^
+  symbol:   method run(LookAndFeel,int,int)
+  location: class LookAndFeel
+Menus.java:147: error: cannot find symbol
+    run(new Menus(), 300, 200);
+    ^
+  symbol:   method run(Menus,int,int)
+  location: class Menus
+MessageBoxes.java:59: error: cannot find symbol
+    run(new MessageBoxes(), 200, 200);
+    ^
+  symbol:   method run(MessageBoxes,int,int)
+  location: class MessageBoxes
+MonitoredLongRunningCallable.java:54: error: cannot find symbol
+    new TaskManager<String,MonitoredCallable>();
+        ^
+  symbol:   class TaskManager
+  location: class MonitoredLongRunningCallable
+MonitoredLongRunningCallable.java:85: error: cannot find symbol
+    run(new MonitoredLongRunningCallable(), 200, 500);
+    ^
+  symbol:   method run(MonitoredLongRunningCallable,int,int)
+  location: class MonitoredLongRunningCallable
+Popup.java:49: error: cannot find symbol
+    run(new Popup(), 300, 200);
+    ^
+  symbol:   method run(Popup,int,int)
+  location: class Popup
+Progress.java:34: error: cannot find symbol
+    run(new Progress(), 300, 200);
+    ^
+  symbol:   method run(Progress,int,int)
+  location: class Progress
+RadioButtons.java:34: error: cannot find symbol
+    run(new RadioButtons(), 200, 125);
+    ^
+  symbol:   method run(RadioButtons,int,int)
+  location: class RadioButtons
+ShowAddListeners.java:56: error: cannot find symbol
+    run(new ShowAddListeners(), 500, 400);
+    ^
+  symbol:   method run(ShowAddListeners,int,int)
+  location: class ShowAddListeners
+SimpleMenus.java:38: error: cannot find symbol
+    run(new SimpleMenus(), 200, 150);
+    ^
+  symbol:   method run(SimpleMenus,int,int)
+  location: class SimpleMenus
+SineWave.java:59: error: cannot find symbol
+    run(new SineWave(), 700, 400);
+    ^
+  symbol:   method run(SineWave,int,int)
+  location: class SineWave
+TabbedPane1.java:31: error: cannot find symbol
+    run(new TabbedPane1(), 400, 250);
+    ^
+  symbol:   method run(TabbedPane1,int,int)
+  location: class TabbedPane1
+TextArea.java:19: error: cannot find symbol
+    m.putAll(Countries.capitals());
+             ^
+  symbol:   variable Countries
+  location: class TextArea
+TextArea.java:22: warning: [rawtypes] found raw type: Entry
+        for(Map.Entry me : m.entrySet())
+               ^
+  missing type arguments for generic class Entry<K,V>
+  where K,V are type-variables:
+    K extends Object declared in interface Entry
+    V extends Object declared in interface Entry
+TextArea.java:37: error: cannot find symbol
+    run(new TextArea(), 475, 425);
+    ^
+  symbol:   method run(TextArea,int,int)
+  location: class TextArea
+TextFields.java:67: error: cannot find symbol
+    run(new TextFields(), 375, 200);
+    ^
+  symbol:   method run(TextFields,int,int)
+  location: class TextFields
+TextPane.java:13: error: package RandomGenerator does not exist
+    new RandomGenerator.String(7);
+                       ^
+TextPane.java:25: error: cannot find symbol
+    run(new TextPane(), 475, 425);
+    ^
+  symbol:   method run(TextPane,int,int)
+  location: class TextPane
+TicTacToe.java:79: error: cannot find symbol
+    run(new TicTacToe(), 200, 200);
+    ^
+  symbol:   method run(TicTacToe,int,int)
+  location: class TicTacToe
+TrackEvent.java:91: error: cannot find symbol
+    run(new TrackEvent(), 700, 500);
+    ^
+  symbol:   method run(TrackEvent,int,int)
+  location: class TrackEvent
+88 errors
+22 warnings

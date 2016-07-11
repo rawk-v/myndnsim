@@ -1,0 +1,265 @@
+INFO	?	main	2016-07-11T01:13:06.817Z	org.javacs.Main#connectToNode	Connected to parent using socket on port 55282
+INFO	?	pool-1-thread-1	2016-07-11T01:13:07.075Z	org.javacs.JavaLanguageServer#doLint	Lint /home/mrdreamer/Documents/java/design patterns/proxynullobj.java
+SEVERE	?	pool-1-thread-1	2016-07-11T01:13:07.085Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/proxynullobj.java
+org.javacs.ShowMessageException: Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/proxynullobj.java
+	at org.javacs.ShowMessageException.create(ShowMessageException.java:29)
+	at org.javacs.ShowMessageException.warning(ShowMessageException.java:20)
+	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:185)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:217)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:213)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.javacs.NoJavaConfigException: Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/proxynullobj.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:292)
+	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:25)
+	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:182)
+	... 12 more
+
+INFO	?	pool-1-thread-1	2016-07-11T01:13:07.094Z	org.javacs.JavaLanguageServer#doLint	Lint /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+SEVERE	?	pool-1-thread-1	2016-07-11T01:13:07.094Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+org.javacs.ShowMessageException: Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+	at org.javacs.ShowMessageException.create(ShowMessageException.java:29)
+	at org.javacs.ShowMessageException.warning(ShowMessageException.java:20)
+	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:185)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:217)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:213)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.javacs.NoJavaConfigException: Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:292)
+	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:25)
+	at org.javacs.JavaLanguageServer$1.didOpen(JavaLanguageServer.java:182)
+	... 12 more
+
+SEVERE	?	pool-1-thread-1	2016-07-11T01:13:12.935Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-07-11T01:13:12.936Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+SEVERE	?	pool-1-thread-1	2016-07-11T01:13:13.378Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-07-11T01:13:13.378Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+SEVERE	?	pool-1-thread-1	2016-07-11T01:13:13.578Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-07-11T01:13:13.578Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+SEVERE	?	pool-1-thread-1	2016-07-11T01:24:29.510Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-07-11T01:24:29.510Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+SEVERE	?	pool-1-thread-1	2016-07-11T01:25:15.846Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-07-11T01:25:15.846Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+SEVERE	?	pool-1-thread-1	2016-07-11T01:25:18.702Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-07-11T01:25:18.702Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+SEVERE	?	pool-1-thread-1	2016-07-11T01:26:24.510Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-07-11T01:26:24.510Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+SEVERE	?	pool-1-thread-1	2016-07-11T02:11:46.030Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-07-11T02:11:46.030Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+SEVERE	?	pool-1-thread-1	2016-07-11T05:30:42.062Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-07-11T05:30:42.062Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+SEVERE	?	pool-1-thread-1	2016-07-11T05:30:54.522Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-07-11T05:30:54.522Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/mrdreamer/Documents/java/design patterns/nullobjects.java

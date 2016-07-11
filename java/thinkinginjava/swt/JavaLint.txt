@@ -1,0 +1,315 @@
+warning: [options] bootstrap class path not set in conjunction with -source 1.5
+warning: [options] source value 1.5 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+ColorBoxes.java:3: error: package swt.util does not exist
+import swt.util.*;
+^
+ColorBoxes.java:4: error: package org.eclipse.swt does not exist
+import org.eclipse.swt.*;
+^
+ColorBoxes.java:5: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.*;
+^
+ColorBoxes.java:6: error: package org.eclipse.swt.events does not exist
+import org.eclipse.swt.events.*;
+^
+ColorBoxes.java:7: error: package org.eclipse.swt.graphics does not exist
+import org.eclipse.swt.graphics.*;
+^
+ColorBoxes.java:8: error: package org.eclipse.swt.layout does not exist
+import org.eclipse.swt.layout.*;
+^
+ColorBoxes.java:11: error: package net.mindview.util does not exist
+import net.mindview.util.*;
+^
+ColorBoxes.java:13: error: cannot find symbol
+class CBox extends Canvas implements Runnable {
+                   ^
+  symbol: class Canvas
+ColorBoxes.java:24: error: cannot find symbol
+  private static RGB newColor() {
+                 ^
+  symbol:   class RGB
+  location: class CBox
+ColorBoxes.java:29: error: cannot find symbol
+  private RGB cColor = newColor();
+          ^
+  symbol:   class RGB
+  location: class CBox
+ColorBoxes.java:30: error: cannot find symbol
+  public CBox(Composite parent, int pause) {
+              ^
+  symbol:   class Composite
+  location: class CBox
+ColorBoxes.java:14: error: cannot find symbol
+  class CBoxPaintListener implements PaintListener {
+                                     ^
+  symbol:   class PaintListener
+  location: class CBox
+ColorBoxes.java:15: error: cannot find symbol
+    public void paintControl(PaintEvent e) {
+                             ^
+  symbol:   class PaintEvent
+  location: class CBox.CBoxPaintListener
+ColorBoxes.java:57: error: cannot find symbol
+public class ColorBoxes implements SWTApplication {
+                                   ^
+  symbol: class SWTApplication
+ColorBoxes.java:60: error: cannot find symbol
+  public void createContents(Composite parent) {
+                             ^
+  symbol:   class Composite
+  location: class ColorBoxes
+DisplayEnvironment.java:2: error: package swt.util does not exist
+import swt.util.*;
+^
+DisplayEnvironment.java:3: error: package org.eclipse.swt does not exist
+import org.eclipse.swt.*;
+^
+DisplayEnvironment.java:4: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.*;
+^
+DisplayEnvironment.java:5: error: package org.eclipse.swt.layout does not exist
+import org.eclipse.swt.layout.*;
+^
+DisplayEnvironment.java:8: error: cannot find symbol
+public class DisplayEnvironment implements SWTApplication {
+                                           ^
+  symbol: class SWTApplication
+DisplayEnvironment.java:9: error: cannot find symbol
+  public void createContents(Composite parent) {
+                             ^
+  symbol:   class Composite
+  location: class DisplayEnvironment
+DisplayProperties.java:2: error: package org.eclipse.swt does not exist
+import org.eclipse.swt.*;
+^
+DisplayProperties.java:3: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.*;
+^
+DisplayProperties.java:4: error: package org.eclipse.swt.layout does not exist
+import org.eclipse.swt.layout.*;
+^
+HelloSWT.java:4: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.*;
+^
+Menus.java:3: error: package swt.util does not exist
+import swt.util.*;
+^
+Menus.java:4: error: package org.eclipse.swt does not exist
+import org.eclipse.swt.*;
+^
+Menus.java:5: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.*;
+^
+Menus.java:7: error: package net.mindview.util does not exist
+import net.mindview.util.*;
+^
+Menus.java:9: error: cannot find symbol
+public class Menus implements SWTApplication {
+                              ^
+  symbol: class SWTApplication
+Menus.java:10: error: cannot find symbol
+  private static Shell shell;
+                 ^
+  symbol:   class Shell
+  location: class Menus
+Menus.java:11: error: cannot find symbol
+  public void createContents(Composite parent) {
+                             ^
+  symbol:   class Composite
+  location: class Menus
+Menus.java:33: error: cannot find symbol
+  static Listener listener = new Listener() {
+         ^
+  symbol:   class Listener
+  location: class Menus
+Menus.java:39: error: cannot find symbol
+  addItem(Menu bar, Iterator<String> it, MenuItem mItem) {
+          ^
+  symbol:   class Menu
+  location: class Menus
+Menus.java:39: error: cannot find symbol
+  addItem(Menu bar, Iterator<String> it, MenuItem mItem) {
+                                         ^
+  symbol:   class MenuItem
+  location: class Menus
+ShellsAreMainWindows.java:2: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.*;
+^
+ShellsAreMainWindows.java:5: error: cannot find symbol
+  static Shell[] shells = new Shell[10];
+         ^
+  symbol:   class Shell
+  location: class ShellsAreMainWindows
+SineWave.java:3: error: package swt.util does not exist
+import swt.util.*;
+^
+SineWave.java:4: error: package org.eclipse.swt does not exist
+import org.eclipse.swt.*;
+^
+SineWave.java:5: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.*;
+^
+SineWave.java:6: error: package org.eclipse.swt.events does not exist
+import org.eclipse.swt.events.*;
+^
+SineWave.java:7: error: package org.eclipse.swt.layout does not exist
+import org.eclipse.swt.layout.*;
+^
+SineWave.java:9: error: cannot find symbol
+class SineDraw extends Canvas {
+                       ^
+  symbol: class Canvas
+SineWave.java:15: error: cannot find symbol
+  public SineDraw(Composite parent, int style) {
+                  ^
+  symbol:   class Composite
+  location: class SineDraw
+SineWave.java:51: error: cannot find symbol
+public class SineWave implements SWTApplication {
+                                 ^
+  symbol: class SWTApplication
+SineWave.java:53: error: cannot find symbol
+  private Slider slider;
+          ^
+  symbol:   class Slider
+  location: class SineWave
+SineWave.java:54: error: cannot find symbol
+  public void createContents(Composite parent) {
+                             ^
+  symbol:   class Composite
+  location: class SineWave
+TabbedPane.java:3: error: package swt.util does not exist
+import swt.util.*;
+^
+TabbedPane.java:4: error: package org.eclipse.swt does not exist
+import org.eclipse.swt.*;
+^
+TabbedPane.java:5: error: package org.eclipse.swt.widgets does not exist
+import org.eclipse.swt.widgets.*;
+^
+TabbedPane.java:6: error: package org.eclipse.swt.events does not exist
+import org.eclipse.swt.events.*;
+^
+TabbedPane.java:7: error: package org.eclipse.swt.graphics does not exist
+import org.eclipse.swt.graphics.*;
+^
+TabbedPane.java:8: error: package org.eclipse.swt.layout does not exist
+import org.eclipse.swt.layout.*;
+^
+TabbedPane.java:9: error: package org.eclipse.swt.browser does not exist
+import org.eclipse.swt.browser.*;
+^
+TabbedPane.java:11: error: cannot find symbol
+public class TabbedPane implements SWTApplication {
+                                   ^
+  symbol: class SWTApplication
+TabbedPane.java:12: error: cannot find symbol
+  private static TabFolder folder;
+                 ^
+  symbol:   class TabFolder
+  location: class TabbedPane
+TabbedPane.java:13: error: cannot find symbol
+  private static Shell shell;
+                 ^
+  symbol:   class Shell
+  location: class TabbedPane
+TabbedPane.java:14: error: cannot find symbol
+  public void createContents(Composite parent) {
+                             ^
+  symbol:   class Composite
+  location: class TabbedPane
+TabbedPane.java:68: error: cannot find symbol
+  private static Listener listener = new Listener() {
+                 ^
+  symbol:   class Listener
+  location: class TabbedPane
+TabbedPane.java:75: error: cannot find symbol
+  private static void newButton(Composite composite,
+                                ^
+  symbol:   class Composite
+  location: class TabbedPane
+TabbedPane.java:109: error: cannot find symbol
+    extends MouseAdapter implements MouseMoveListener {
+            ^
+  symbol:   class MouseAdapter
+  location: class TabbedPane
+TabbedPane.java:109: error: cannot find symbol
+    extends MouseAdapter implements MouseMoveListener {
+                                    ^
+  symbol:   class MouseMoveListener
+  location: class TabbedPane
+TabbedPane.java:110: error: cannot find symbol
+    private Point p = new Point(0, 0);
+            ^
+  symbol:   class Point
+  location: class ScribbleMouseListener
+TabbedPane.java:111: error: cannot find symbol
+    public void mouseMove(MouseEvent e) {
+                          ^
+  symbol:   class MouseEvent
+  location: class ScribbleMouseListener
+TabbedPane.java:119: error: cannot find symbol
+    public void mouseDown(MouseEvent e) { updatePoint(e); }
+                          ^
+  symbol:   class MouseEvent
+  location: class ScribbleMouseListener
+TabbedPane.java:120: error: cannot find symbol
+    private void updatePoint(MouseEvent e) {
+                             ^
+  symbol:   class MouseEvent
+  location: class ScribbleMouseListener
+ColorBoxes.java:16: error: cannot find symbol
+      Color color = new Color(e.display, cColor);
+      ^
+  symbol:   class Color
+  location: class CBox.CBoxPaintListener
+ColorBoxes.java:16: error: cannot find symbol
+      Color color = new Color(e.display, cColor);
+                        ^
+  symbol:   class Color
+  location: class CBox.CBoxPaintListener
+ColorBoxes.java:18: error: cannot find symbol
+      Point size = getSize();
+      ^
+  symbol:   class Point
+  location: class CBox.CBoxPaintListener
+ColorBoxes.java:18: error: cannot find symbol
+      Point size = getSize();
+                   ^
+  symbol:   method getSize()
+  location: class CBox.CBoxPaintListener
+ColorBoxes.java:25: error: cannot find symbol
+    return new RGB(rand.nextInt(255),
+               ^
+  symbol:   class RGB
+  location: class CBox
+ColorBoxes.java:31: error: cannot find symbol
+    super(parent, SWT.NONE);
+                  ^
+  symbol:   variable SWT
+  location: class CBox
+ColorBoxes.java:33: error: cannot find symbol
+    addPaintListener(new CBoxPaintListener());
+    ^
+  symbol:   method addPaintListener(CBox.CBoxPaintListener)
+  location: class CBox
+ColorBoxes.java:41: error: cannot find symbol
+            try { redraw(); } catch(SWTException e) {}
+                  ^
+  symbol: method redraw()
+ColorBoxes.java:41: error: cannot find symbol
+            try { redraw(); } catch(SWTException e) {}
+                                    ^
+  symbol: class SWTException
+ColorBoxes.java:39: error: cannot find symbol
+        getDisplay().asyncExec(new Runnable() {
+        ^
+  symbol:   method getDisplay()
+  location: class CBox
+ColorBoxes.java:50: error: cannot find symbol
+    } catch(SWTException e) {
+            ^
+  symbol:   class SWTException
+  location: class CBox

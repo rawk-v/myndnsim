@@ -1,0 +1,94 @@
+!SESSION 2016-07-11 18:31:09.314 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-07-11 18:32:34.184
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+!SESSION 2016-07-11 18:34:09.465 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-07-11 18:34:11.596
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2016-07-11 18:36:59.411
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+!SESSION 2016-07-11 18:37:17.541 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/home/mrdreamer/Documents/java/j2ee/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-07-11 19:00:06.252
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-07-11 19:00:14.115
+!MESSAGE Invalid site reference %updateSiteURL in feature com.pramati.eclipse.feature.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-07-11 19:00:14.116
+!MESSAGE Invalid site reference %updateSiteURL in feature com.pramati.eclipse.feature.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-07-11 19:00:14.116
+!MESSAGE Invalid site reference %updateSiteURL in feature com.pramati.eclipse.feature.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2016-07-11 19:00:38.551
+!MESSAGE Connection to http://downloads.sourceforge.net/project/sapnweclipse/updates/features/com.sap.netweaver.porta.ide.eclipse.feature_0.5.1.200910061011.jar failed on ufpr.dl.sourceforge.net: unknown error. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: ufpr.dl.sourceforge.net: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-07-11 19:07:29.689
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-07-11 19:07:29.689
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-07-11 19:10:53.058
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-07-11 19:11:20.312
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-07-11 19:12:37.609
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-07-11 19:12:56.524
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-07-11 19:15:34.280
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-07-11 19:15:45.391
+!MESSAGE Several ports (8005, 8080) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2016-07-11 19:28:53.615
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).

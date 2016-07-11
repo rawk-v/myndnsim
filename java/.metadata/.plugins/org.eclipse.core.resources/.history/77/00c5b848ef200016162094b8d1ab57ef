@@ -1,0 +1,85 @@
+package database;
+import java.sql.*;
+public class FirstTest {
+
+	
+	
+	static final String jdbc_driver="com.mysql.jdbc.Driver";
+	static final String db_url="jdbc:mysql://localhost/testdb";
+	
+	
+	static final String user_name="root";
+	static final String password="why90951213";
+	
+    public static void Initial(Connection conn) throws SQLException
+    {
+    	Statement stmt=conn.createStatement();
+    	String command=null;
+    	for (int i=4; i<=100;i++)
+    	{
+    		double salary=1000*Math.random();
+    		String command="insert into employee values("+i+","+Integer.toString(i)+" stuff,"+salary+")";
+    	}
+    	
+    }
+	
+	
+	
+	public static void Show(ResultSet rs) throws SQLException
+	{
+		 while(rs.next())
+		  {
+			  int id=rs.getInt("id");
+			  String name=rs.getString("name");
+			  double salary=rs.getDouble("salary");
+			  System.out.println(id+" "+name+" "+salary);
+		  }
+	}
+	public static void main(String[] args)
+	{
+	   Connection conn=null;
+	  Statement statement=null;
+	  Statement stmt=null;
+	  try
+	  {
+		  Class.forName(jdbc_driver);
+		  conn=DriverManager.getConnection(db_url,user_name,password);
+		  String command="SELECT * FROM employee ";
+		  statement=conn.createStatement();
+		ResultSet rs=statement.executeQuery(command);
+		  
+		  FirstTest.Show(rs);
+		   stmt=conn.createStatement();
+		  String update_command="update employee set salary=100.00 where name='tom'";
+		 stmt.executeUpdate(update_command);
+		  rs=statement.executeQuery(command);
+		 FirstTest.Show(rs);
+		  
+		  rs.close();
+	  }
+	
+	  catch (Exception e)
+	  {
+		 e.printStackTrace();
+	  }
+	  finally
+	  {
+		  try
+		  {
+			  stmt.close();
+		  }
+		  catch (Exception e)
+		  {
+			  e.printStackTrace();
+		  }
+		  try
+		  {
+			  conn.close();  
+		  }
+		  catch(Exception e)
+		  {
+			  e.printStackTrace();
+		  }
+	  }
+	}
+}
